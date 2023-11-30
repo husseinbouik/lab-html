@@ -21,4 +21,4 @@ Vous pouvez utiliser la documentation des directives de texte de fragment d'URL:
 ](https://wicg.github.io/scroll-to-text-fragment/) pour plus d'informations sur la syntaxe des liens.
 
 ## Solution 
-<h2 href="index.html">Les pandémies mondiales</h2>
+<a href="index.html">Les pandémies mondiales</a>
