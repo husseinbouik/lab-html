@@ -83,5 +83,18 @@
   </section>
 
   <p>Understanding the history, causes, prevention, and impact of global pandemics is essential for preparing for and responding to future outbreaks.</p>
+
+  <script>
+    // Detect fragment identifier in URL
+    const fragment = window.location.hash.substr(1);
+
+    // Scroll to the corresponding section if valid fragment exists
+    if (fragment) {
+      const targetSection = document.getElementById(fragment);
+      if (targetSection) {
+        targetSection.scrollIntoView();
+      }
+    }
+  </script>
 </body>
 </html>
